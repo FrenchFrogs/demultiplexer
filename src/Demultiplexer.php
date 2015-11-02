@@ -1,4 +1,4 @@
-<?php namespace Demultiplexer;
+<?php namespace FrenchFrogs\Demultiplexer;
 
 use Illuminate\Database\Eloquent\Model;
 
