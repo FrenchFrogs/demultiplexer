@@ -1,4 +1,4 @@
-<?php namespace FrenchFrogs\Demultiplexer;
+<?php namespace Demultiplexer;
 
 use Illuminate\Support\ServiceProvider;
 

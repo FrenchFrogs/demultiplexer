@@ -1,7 +1,7 @@
-<?php namespace FrenchFrogs\Demultiplexer;
+<?php namespace Demultiplexer;
 
 use Closure;
-use FrenchFrogs\Demultiplexer;
+use Demultiplexer\Demultiplexer;
 
 class DemultiplexerMiddleware
 {
