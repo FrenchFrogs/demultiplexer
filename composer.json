@@ -1,0 +1,17 @@
+{
+    "name": "frenchfrogs/demultiplexer",
+    "authors": [
+        {
+            "name": "Justine",
+            "email": "justine.raze@wengo.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-0": {
+            "Demultiplexer\\": "src/"
+        }
+    }
+}
