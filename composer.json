@@ -10,8 +10,8 @@
     "autoload": {
         "classmap": [
         ],
-        "psr-0": {
-            "Demultiplexer\\": "src/"
+        "psr-4": {
+            "Frenchfrogs\\Demultiplexer\\": "src/"
         }
     }
 }
