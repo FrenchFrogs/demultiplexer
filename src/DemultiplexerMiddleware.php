@@ -1,6 +1,7 @@
 <?php namespace FrenchFrogs\Demultiplexer;
 
 use Closure;
+use FrenchFrogs\Models\Db\Demultiplexer;
 
 class DemultiplexerMiddleware
 {
