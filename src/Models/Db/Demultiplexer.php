@@ -1,4 +1,4 @@
-<?php namespace FrenchFrogs\Demultiplexer;
+<?php namespace FrenchFrogs\Models\Db;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -20,24 +20,18 @@ class Demultiplexer extends Model
      * @param $params
      * @return modelDemultiplexer
      */
-    public static function create(array $params = [])
+    public static function create($params, $token = null)
     {
         // create new demultiplexer
         $d = new Demultiplexer();
+        $d->params = $params;
 
         // if no token in parameters, it is generate and check is not already exist
-        if(!$params['token']) {
+        if(!$token) {
             $token = Demultiplexer::generateToken();
         }
-        else {
-            $token = $params['token'];
-        }
 
-        unset($params['token']);
-
-        $d->params = $params;
         $d->token = $token;
-
         $d->save();
 
         // returns the demultiplexer

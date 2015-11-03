@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "FrenchFrogs\\Demultiplexer\\": "src/"
+            "FrenchFrogs\\Demultiplexer\\": "src/",
+            "FrenchFrogs\\Models\\": "src/Models"
         }
     }
 }
