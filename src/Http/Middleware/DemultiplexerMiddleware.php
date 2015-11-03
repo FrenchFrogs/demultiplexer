@@ -1,4 +1,4 @@
-<?php namespace FrenchFrogs\Demultiplexer;
+<?php namespace FrenchFrogs\Demultiplexer\Http\Middleware;
 
 use Closure;
 use FrenchFrogs\Models\Db\Demultiplexer;

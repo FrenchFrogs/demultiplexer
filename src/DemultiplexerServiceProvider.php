@@ -12,7 +12,7 @@ class DemultiplexerServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../database/migrations/' => database_path('migrations')
+            __DIR__.'/../database/migrations/create_demultiplexer_table.php' => database_path('migrations/' . Carbon::now()->format('Y_m_d_His') . '_create_demultiplexer_table.php'),
         ], 'migrations');
     }
 
