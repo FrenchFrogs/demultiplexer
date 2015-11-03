@@ -1,5 +1,6 @@
 <?php namespace FrenchFrogs\Demultiplexer;
 
+use Carbon\Carbon;
 use Illuminate\Support\ServiceProvider;
 
 class DemultiplexerServiceProvider extends ServiceProvider
