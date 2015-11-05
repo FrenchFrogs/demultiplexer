@@ -1,11 +1,25 @@
 {
     "name": "frenchfrogs/demultiplexer",
+    "type": "library",
     "authors": [
+        {
+            "name": "Julien Houvion",
+            "email": "cotcotquedec@gmail.com",
+            "homepage": "https://github.com/cotcotquedec",
+            "role": "Project Manager"
+        },
         {
             "name": "Justine",
             "email": "justine.raze@wengo.com"
         }
     ],
+    "source": {
+        "url": "git@github.com:FrenchFrogs/demultiplexer.git",
+        "type": "git",
+        "reference": "origin/master"
+    },
+    "homepage": "https://github.com/FrenchFrogs/demultiplexer",
+    "licence": "GPL-3.0+",
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5.1"
@@ -15,5 +29,6 @@
             "FrenchFrogs\\Demultiplexer\\": "src/",
             "FrenchFrogs\\Models\\": "src/Models"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
