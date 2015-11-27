@@ -1,6 +1,6 @@
 <?php namespace FrenchFrogs\Models\Db;
 
-use Illuminate\Database\Eloquent\Model;
+use FrenchFrogs\Laravel\Database\Eloquent\Model;
 
 class Demultiplexer extends Model
 {
@@ -12,6 +12,8 @@ class Demultiplexer extends Model
      * @var string
      */
     protected $table = 'demultiplexer';
+
+    public $uuid = true;
 
 
     /**
